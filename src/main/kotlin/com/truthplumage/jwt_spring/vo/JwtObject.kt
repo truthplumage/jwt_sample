@@ -1,3 +1,7 @@
 package com.truthplumage.jwt_spring.vo
 
-class JwtObject(var jwt: String)
+class JwtObject(){
+    var jwt: String = ""
+    var jwtExpireToken:String = ""
+
+}
